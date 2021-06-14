@@ -4,8 +4,7 @@ Generative Probabilistic Alignment Models for Words and Subwords: a Systematic E
 Thèse de doctorat de l'université Paris-Saclay
 
 École doctorale n◦ 580 Sciences et technologies de l’information et de la communication (ED STIC)
+
 Spécialité de doctorat: Informatique
+
 Unité de recherche: Université Paris-Saclay, CNRS, Laboratoire interdisciplinaire des sciences du numérique, 91405, Orsay, France
-Référent: Faculté des sciences École doctorale n◦ 580 Sciences et technologies de l’information et de la communication (ED STIC) Spécialité de doctorat: Informatique Unité de recherche: Université Paris-Saclay, CNRS, Laboratoire interdisciplinaire des sciences du numérique, 91405, Orsay, France 
-Référent: Faculté des sciences d’Orsay 
-d’Orsay 
