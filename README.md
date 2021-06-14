@@ -8,3 +8,5 @@ Thèse de doctorat de l'université Paris-Saclay
 Spécialité de doctorat: Informatique
 
 Unité de recherche: Université Paris-Saclay, CNRS, Laboratoire interdisciplinaire des sciences du numérique, 91405, Orsay, France
+
+https://www.theses.fr/2021UPASG014
