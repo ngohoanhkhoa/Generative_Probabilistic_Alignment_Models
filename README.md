@@ -10,3 +10,5 @@ Spécialité de doctorat: Informatique
 Unité de recherche: Université Paris-Saclay, CNRS, Laboratoire interdisciplinaire des sciences du numérique, 91405, Orsay, France
 
 https://www.theses.fr/2021UPASG014
+
+[Streamlit for Word alignment Evaluation](https://share.streamlit.io/ngohoanhkhoa/generative_probabilistic_alignment_models/main/alignment_evaluation_app.py)
