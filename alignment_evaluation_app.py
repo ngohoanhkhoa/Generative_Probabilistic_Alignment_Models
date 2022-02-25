@@ -1069,7 +1069,7 @@ def show_graphs_prediction(result, figScale=1.2):
             col1, col2 = st.columns(2)
             with col1:
                 st.write("\# Correct alignment links (TP): "+ str(result["num_true_align_tp"]))
-                st.write("\# Correct non-existing links (TP): "+ str(result["num_true_no_tn"]))
+                st.write("\# Correct non-existing links (TN): "+ str(result["num_true_no_tn"]))
             with col2:
                 st.write(fig5)
 
