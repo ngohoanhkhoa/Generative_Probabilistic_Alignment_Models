@@ -298,7 +298,8 @@ def show_graphs_reference(result, figScale=1.2):
         if v2 != 0:
             ax1.text(index, v1+v2, str(v2), color='black', ha="center", verticalalignment="bottom")
 
-    ax1.legend(("Unaligned", "Aligned"),loc=4)
+    ax1.legend(("Unaligned", "Aligned"),loc='upper center', bbox_to_anchor=(0.5, 1.15),
+          fancybox=True, ncol=2)
 
     fig1.tight_layout(pad=3.)
     fig1.tight_layout()
@@ -360,7 +361,8 @@ def show_graphs_reference(result, figScale=1.2):
         if value != 0:
             ax3X.text(4, index, str(np.round(value, 1)) +"%", color='black', ha="center", verticalalignment="bottom")
 
-    ax3X.legend(("Many2Many", "Many2One", "One2Many", "One2One"),loc=4)
+    ax3X.legend(("Many2Many", "Many2One", "One2Many", "One2One"),loc='upper center', bbox_to_anchor=(0.5, 1.15),
+          fancybox=True, ncol=4)
     #-----------------------------------------------------------------
 
     fig3.tight_layout(pad=3.)
@@ -372,6 +374,7 @@ def show_graphs_reference(result, figScale=1.2):
     with st.expander("Aligned/unaligned words"):
         col1, col2 = st.columns(2)
         with col1:
+            st.markdown("**Source words**")
             st.write("\# Aligned words: "+ str(result["num_source2notnull_ref"]))
             st.write("\# Unaligned words: "+ str(result["num_source2null_ref"]))
 
@@ -878,7 +881,8 @@ def show_graphs_prediction(result, figScale=1.2):
         if v2 != 0:
             ax1.text(index, v1+v2, str(v2), color='black', ha="center", verticalalignment="bottom")
 
-    ax1.legend(("Unaligned", "Aligned"),loc=4)
+    ax1.legend(("Unaligned", "Aligned"),loc='upper center', bbox_to_anchor=(0.5, 1.15),
+          fancybox=True, ncol=2)
 
     #-----------------------------------------------------------------
     fig2, ax2 = plt.subplots()
@@ -892,7 +896,8 @@ def show_graphs_prediction(result, figScale=1.2):
 
     ax2.set(xlabel="Counts for Unaligned words", ylabel='Number of words')
     ax2.set(ylim=(0, np.max(np.array(y_source)+np.array(y_target))*figScale))
-    ax2.legend(("Target", "Source"),loc=4)
+    ax2.legend(("Target", "Source"),loc='upper center', bbox_to_anchor=(0.5, 1.15),
+          fancybox=True, ncol=2)
 
     for index, (v1, v2) in enumerate(zip(y_source,y_target)):
         if v1 != 0:
@@ -983,7 +988,8 @@ def show_graphs_prediction(result, figScale=1.2):
         if value != 0:
             ax7X.text(4, index, str(np.round(value, 1)) +"%", color='black', ha="center", verticalalignment="bottom")
 
-    ax7X.legend(("Many2Many", "Many2One", "One2Many", "One2One"),loc=4)
+    ax7X.legend(("Many2Many", "Many2One", "One2Many", "One2One"),loc='upper center', bbox_to_anchor=(0.5, 1.15),
+          fancybox=True, ncol=4)
 
     #-----------------------------------------------------------------
     fig8, ax8 = plt.subplots()
@@ -1007,7 +1013,8 @@ def show_graphs_prediction(result, figScale=1.2):
         if v2 != 0:
             ax8.text(index, v1+v2, str(v2), color='black', ha="center", verticalalignment="bottom")
 
-    ax8.legend(("Incorrect", "Correct"),loc=4)
+    ax8.legend(("Incorrect", "Correct"),loc='upper center', bbox_to_anchor=(0.5, 1.15),
+          fancybox=True, ncol=2)
 
     #-----------------------------------------------------------------
     with st.expander("Aligned/unaligned words"):
