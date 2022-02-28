@@ -167,7 +167,7 @@ elif corpus == 'English-Czech':
 elif corpus == 'English-Japanese':
     corpus_ = 'en-ja'
     st.markdown('''Number of sentence pairs: 1 235''')
-    st.markdown('''Source: [KFTT](http://www.phontron.com/kftt/# alignments)''')
+    st.markdown('''Source: [KFTT](http://www.phontron.com/kftt/#alignments)''')
 elif corpus == 'English-Vietnamese':
     corpus_ = 'en-vi'
     st.markdown('''Number of sentence pairs: 3 447''')
