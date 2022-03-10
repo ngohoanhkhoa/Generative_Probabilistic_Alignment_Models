@@ -1,0 +1,11 @@
+char /content/drive/MyDrive/subwordOptimization/en-vi/en_test_char
+8000 /content/drive/MyDrive/subwordOptimization/en-vi/en_test_bpe_8000
+32000 /content/drive/MyDrive/subwordOptimization/en-vi/en_test_bpe_32000
+2000 /content/drive/MyDrive/subwordOptimization/en-vi/en_test_bpe_2000
+1000 /content/drive/MyDrive/subwordOptimization/en-vi/en_test_bpe_1000
+48000 /content/drive/MyDrive/subwordOptimization/en-vi/en_test_bpe_48000
+16000 /content/drive/MyDrive/subwordOptimization/en-vi/en_test_bpe_16000
+500 /content/drive/MyDrive/subwordOptimization/en-vi/en_test_bpe_500
+200 /content/drive/MyDrive/subwordOptimization/en-vi/en_test_bpe_200
+4000 /content/drive/MyDrive/subwordOptimization/en-vi/en_test_bpe_4000
+word /content/drive/MyDrive/subwordOptimization/en-vi/en_test
