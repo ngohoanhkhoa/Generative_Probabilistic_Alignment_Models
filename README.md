@@ -11,4 +11,8 @@ Unité de recherche: Université Paris-Saclay, CNRS, Laboratoire interdisciplina
 
 https://www.theses.fr/2021UPASG014
 
-[Streamlit for Word alignment Evaluation](https://share.streamlit.io/ngohoanhkhoa/generative_probabilistic_alignment_models/main/alignment_evaluation_app.py)
+[Word alignment Evaluation App](https://share.streamlit.io/ngohoanhkhoa/generative_probabilistic_alignment_models/main/alignment_evaluation_app.py)
+
+[Graphs for bitext corpora - App](https://share.streamlit.io/ngohoanhkhoa/generative_probabilistic_alignment_models/main/alignment_evaluation_corpus_app.py)
+
+[Word Alignments with Subword Tokenization - App](https://share.streamlit.io/ngohoanhkhoa/generative_probabilistic_alignment_models/main/subword_alignment_app.py)
